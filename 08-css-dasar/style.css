@@ -1,0 +1,13 @@
+h1 {
+  color: purple;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+p {
+  color: pink;
+  font-size: 30px;
+  text-align: center;
+}
