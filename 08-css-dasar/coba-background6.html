@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Background Attachment</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: rgb(209, 209, 209);
+        height: 2000px;
+      }
+
+      .kotak {
+        width: 400px;
+        height: 400px;
+        border: 10px solid #333;
+        margin: auto;
+        background-image: url(img/kota.jpeg);
+        background-size: 60px;
+        background-repeat: round;
+        overflow: auto;
+        background-attachment: fixed;
+      }
+      .content {
+        color: white;
+        line-height: 2;
+        background-color: rgb(0 0 0/ 70%);
+      }
+
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Coba Background Attachment</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta eligendi
+      sed nam laboriosam quas, commodi iure quae! Molestias, soluta
+      exercitationem!
+    </p>
+    <div class="kotak">
+      <div class="content">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate,
+          in?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
+          ducimus quos mollitia nam iure velit delectus dignissimos ut
+          accusamus, id tenetur aperiam suscipit deserunt aut ratione animi nemo
+          at eligendi?
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          deserunt beatae commodi saepe odit sunt ut sint quae non reiciendis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+          temporibus consectetur repellat corrupti hic obcaecati iste optio
+          cupiditate quasi maiores?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, facere
+          dolor error sequi odit esse labore ipsa explicabo ab unde illo
+          obcaecati quasi est tempora ipsum molestiae cupiditate qui veniam.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
