@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan CSS Float</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #b28e2d;
+        padding: 40px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      section {
+        background: white;
+        padding: 30px;
+        margin-bottom: 50px;
+        border-radius: 12px;
+        border: 1px solid #ddd;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+        color: #1e40af;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 10px;
+      }
+
+      .text-wrapping img {
+        margin-right: 20px;
+        margin-bottom: 10px;
+        border: 4px solid #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .text-wrapping img.img-left {
+        float: left;
+      }
+
+      .text-wrapping img.img-right {
+        float: right;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .kolom-container {
+        background-color: #f8fafc;
+        padding: 10px;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .kolom {
+        float: left;
+        width: 31.33%;
+        margin: 1%;
+        padding: 20px;
+        background-color: #dbeafe;
+        border: 1px solid #bfdbfe;
+        min-height: 200px;
+        text-align: center;
+      }
+
+      .gallery-container {
+        padding: 10px;
+        background-color: #f8fafc;
+        overflow: hidden;
+      }
+
+      .gallery-item {
+        float: left;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        background-color: #eee;
+        border: 2px solid #ddd;
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .footer-note {
+        background-color: #1e293b;
+        color: #f1f5f9;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Eksperimen CSS Float</h1>
+
+    <section class="text-wrapping clearfix">
+      <h2>1. Text Wrapping</h2>
+      <img
+        src="https://picsum.photos/id/10/200/200"
+        alt="Gambar 1"
+        class="img-left"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil odit
+        omnis, commodi eligendi modi quidem et laudantium ea itaque? Labore eius
+        qui earum quidem accusantium perferendis, fugiat sequi magni quam
+        reiciendis itaque obcaecati. Modi illum ad aperiam eum mollitia
+        assumenda sapiente, corrupti quia fuga ipsa consequuntur commodi,
+        accusamus hic? Natus facere nam nostrum, obcaecati ipsam non consequatur
+        corporis autem, ullam odit qui illo doloremque dolores illum itaque nisi
+        corrupti totam, culpa animi. Pariatur ut veritatis nostrum iure fugiat
+        libero ratione nisi eligendi ipsum sed! Illo eum sint vitae quidem omnis
+        illum, odit repellendus, provident fuga error quia aspernatur alias unde
+        doloremque laborum cumque ullam ut corporis quo harum amet fugit
+        voluptates? Voluptate commodi fugit repellendus voluptatem inventore
+        molestiae saepe animi, dignissimos facilis cupiditate, neque veritatis
+        voluptates nihil numquam iure, autem unde totam. Laudantium enim debitis
+        dolore, vitae, veritatis cum repellat libero quidem dolorem deleniti
+        neque. Dolor ipsam praesentium maxime iusto tempora similique,
+        repudiandae perspiciatis beatae rerum laudantium vitae, dignissimos
+        culpa debitis! Asperiores earum, aspernatur reprehenderit nam fuga
+        nesciunt amet quam distinctio voluptatum dolores sed impedit dolorum
+        dolor laudantium doloremque. Ea ullam sed unde error natus in sequi aut,
+        neque, eaque inventore voluptas adipisci quasi, maiores officia soluta
+        beatae ipsum. Eaque incidunt reprehenderit placeat labore iure hic optio
+        at aliquam porro, officia cumque facere quo excepturi libero. Eligendi
+        perspiciatis eaque provident eum dolores atque, ipsa excepturi suscipit
+        consectetur in accusantium sint reiciendis dolor velit sunt quae
+        repellat nobis eos illo fuga quidem! Sed distinctio blanditiis minus
+        ipsa et, repudiandae consequuntur praesentium?
+      </p>
+
+      <img
+        src="https://picsum.photos/id/20/200/200"
+        alt="Gambar 2"
+        class="img-right"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+        ex est similique beatae numquam nesciunt corrupti nemo, velit placeat
+        obcaecati laudantium facere vitae quos eius error alias at, commodi
+        harum. Et ipsam illo fuga similique doloremque numquam voluptatibus
+        quisquam rerum cumque dolor excepturi odio nostrum necessitatibus
+        sapiente, sit, tempore neque iste quos at quasi quam placeat, illum qui.
+        Vitae voluptas, minus, natus architecto possimus tempore consequuntur
+        blanditiis ex accusantium non voluptate eaque exercitationem ipsum
+        dolor! Iste reprehenderit aut optio, neque incidunt cum magni maiores
+        soluta quaerat esse corrupti inventore ab! Qui possimus adipisci quis,
+        aliquid odio delectus vitae voluptate minus magni magnam itaque natus
+        cum distinctio deleniti neque odit libero minima exercitationem nesciunt
+        autem aperiam corporis praesentium explicabo? Omnis quasi hic sed odio
+        quos rem odit at dicta assumenda quae.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Layout 3 Kolom</h2>
+      <div class="kolom-container">
+        <div class="kolom">
+          <h3>Kolom 1</h3>
+          <p>ini kolom sebelah kiri</p>
+        </div>
+        <div class="kolom">
+          <h3>Kolom 2</h3>
+          <p>ini kolom tengah</p>
+        </div>
+        <div class="kolom">
+          <h3>Kolom 3</h3>
+          <p>ini kolom sebelah kanan</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Image Gallery</h2>
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="https://picsum.photos/id/30/150/150" alt="Gallery 1" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/id/40/150/150" alt="Gallery 2" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/id/50/150/150" alt="Gallery 3" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/id/60/150/150" alt="Gallery 4" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/id/70/150/150" alt="Gallery 5" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
