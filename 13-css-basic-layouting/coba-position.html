@@ -71,8 +71,8 @@
 
       .absolute {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: auto;
+        right: auto;
       }
 
       .absolute2 {
@@ -80,6 +80,24 @@
         top: -50px;
         right: -50px;
         border-radius: 50%;
+      }
+
+      .coba-fixed {
+        position: fixed;
+      }
+
+      .topbar {
+        width: inherit;
+        height: 50px;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+      }
+
+      .coba-sticky {
+        position: sticky;
+        top: 0;
       }
     </style>
   </head>
@@ -89,7 +107,7 @@
 
     <h2>1. Position: Static (Normal Flow)</h2>
     <div class="box satu">1</div>
-    <div class="box dua">2</div>
+    <div class="box dua coba-fixed topbar">2</div>
     <div class="box tiga">3</div>
 
     <h2>2. Position: Relative</h2>
