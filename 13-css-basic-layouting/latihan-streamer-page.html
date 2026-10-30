@@ -20,6 +20,10 @@
         min-height: 100vh;
       }
 
+      html {
+        scroll-behavior: smooth;
+      }
+
       .top-banner {
         background: linear-gradient(to right, #f59e0b, #fbbf24);
         color: #1e293b;
@@ -281,14 +285,14 @@
     <nav class="navbar">
       <a href="#" class="nav-logo">Z-GAMER</a>
       <ul class="nav-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Videos</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#vidio">Videos</a></li>
+        <li><a href="#gallery">About</a></li>
       </ul>
     </nav>
     <main>
       <!-- About Section -->
-      <section class="bio">
+      <section id="home" class="bio">
         <img
           src="https://picsum.photos/id/65/300/300"
           alt="Z-Gamer Profile"
@@ -312,7 +316,7 @@
       <!-- Profile Status -->
       <section class="card-container">
         <figure class="profile-wrapper">
-          <span class="badge">● LIVE NOW</span>
+          <span id="vidio" class="badge">● LIVE NOW</span>
           <img
             src="https://picsum.photos/id/96/800/800"
             alt="Main Profile Display"
@@ -330,7 +334,7 @@
         </ul>
       </section>
       <!-- Highlights Gallery -->
-      <section class="gallery">
+      <section id="gallery" class="gallery">
         <h3>Latest Highlights</h3>
         <figure class="video-item">
           <img src="https://picsum.photos/id/101/400/250" alt="Clip 1" />

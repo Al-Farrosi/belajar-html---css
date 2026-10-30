@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WPU StreamFest 2026</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -14,27 +15,24 @@
           <li><a href="#about">About</a></li>
           <li><a href="#lineup">Lineup</a></li>
           <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#ticket">Tickets</a></li>
+          <li><a href="#tickets">Tickets</a></li>
           <li><a href="#gallery">Gallery</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section>
+      <section id="hero">
         <h2 id="home">Neon Nights Music Festival</h2>
         <p>
           <strong>3 Days.6 Indonesian Artists. Infinite Vibes.</strong>
         </p>
         <p>June 15-17, 2026 | Jakarta International Expo</p>
-        <a href="#ticket">Get Tickets</a>
+        <a href="#tickets">Get Tickets</a>
       </section>
-      <br />
-      <hr />
-      <br />
 
-      <section>
-        <h2 id="about">About Section</h2>
+      <section id="about">
+        <h3>About Section</h3>
         <p>
           WPU StreamFest 2026 adalah festival musik selama tiga hari yang
           menghadirkan berbagai musisi Indonesia dalam satu rangkaian acara yang
@@ -69,129 +67,90 @@
           bagi setiap orang yang hadir.
         </p>
       </section>
-      <br />
-      <hr />
-      <br />
 
-      <section>
-        <h2 id="lineup">Artist Lineup</h2>
-        <article>
-          <h3>Hindia</h3>
-          <figure>
-            <img src="assets/img/Hindia.jpeg" alt="Hindia" width="500" />
-            <figcaption>Hindia performing at WPU StreamFest 2026</figcaption>
-          </figure>
-          <p><strong>Genre:</strong> Indie Pop</p>
-          <p><strong>Performance:</strong> Day 1 — June 15, 2026</p>
-          <p>
-            <strong>Deskripsi:</strong><br />Hindia is an Indonesian
-            singer-songwriter known for his reflective lyrics, emotional
-            storytelling, and distinctive indie pop sound.
-          </p>
-        </article>
-        <br />
+      <section id="lineup">
+        <h3>Artist Lineup</h3>
+        <ul>
+          <li>
+            <figure class="artist-card">
+              <span class="day-badge">Day 1</span>
+              <img src="assets/img/Hindia.jpeg" alt="Hindia" width="200" />
+              <figcaption>
+                <h4>Hindia</h4>
+                <p><strong>Genre:</strong> Indie Pop</p>
+                <p><strong>Performance:</strong> Day 1 — June 15, 2026</p>
+              </figcaption>
+            </figure>
+          </li>
 
-        <article>
-          <h3>Bernadya</h3>
-          <figure>
-            <img src="assets/img/bernadya.jpeg" alt="Bernaadya" width="500" />
-            <figcaption>
-              Bernadya brings heartfelt pop songs to the WPU StreamFest stage.
-            </figcaption>
-          </figure>
-          <p><strong>Genre:</strong> Pop</p>
-          <p><strong>Performance:</strong> Day 1 — June 15, 2026</p>
-          <p>
-            <strong>Deskripsi:</strong><br />Bernadya is an Indonesian
-            singer-songwriter known for her emotional storytelling, heartfelt
-            lyrics, and distinctive pop sound that resonates with young
-            listeners.
-          </p>
-        </article>
-        <br />
+          <li>
+            <figure class="artist-card">
+              <span class="day-badge">Day 1</span>
+              <img src="assets/img/bernadya.jpeg" alt="Bernaadya" width="200" />
+              <figcaption>
+                <h4>Bernadya</h4>
+                <p><strong>Genre:</strong> Pop</p>
+                <p><strong>Performance:</strong> Day 1 — June 15, 2026</p>
+              </figcaption>
+            </figure>
+          </li>
 
-        <article>
-          <h3>Pamungkas</h3>
-          <figure>
-            <img src="assets/img/Pamungkas.jpeg" alt="Pamungkas" width="500" />
-            <figcaption>
-              Pamungkas brings his signature pop sound to the WPU StreamFest
-              stage.
-            </figcaption>
-          </figure>
-          <p><strong>Genre:</strong> Pop</p>
-          <p><strong>Performance:</strong> Day 2 — June 16, 2026</p>
-          <p>
-            <strong>Deskripsi:</strong><br />Pamungkas is an Indonesian
-            singer-songwriter and musician known for his heartfelt lyrics,
-            soulful voice, and unique blend of pop and indie music.
-          </p>
-        </article>
-        <br />
+          <li>
+            <figure class="artist-card">
+              <span class="day-badge">Day 2</span>
+              <img
+                src="assets/img/Pamungkas.jpeg"
+                alt="Pamungkas"
+                width="200"
+              />
+              <figcaption>
+                <h4>Pamungkas</h4>
+                <p><strong>Genre:</strong> Pop</p>
+                <p><strong>Performance:</strong> Day 2 — June 16, 2026</p>
+              </figcaption>
+            </figure>
+          </li>
 
-        <article>
-          <h3>Juicy Luicy</h3>
-          <figure>
-            <img src="assets/img/juicy.jpeg" alt="Juicy Luicy" width="500" />
-            <figcaption>
-              Juicy Luicy brings emotional pop songs and sentimental vibes to
-              the WPU StreamFest stage.
-            </figcaption>
-          </figure>
-          <p><strong>Genre:</strong> Pop</p>
-          <p><strong>Performance:</strong> Day 2 — June 16, 2026</p>
-          <p>
-            <strong>Deskripsi:</strong><br />Juicy Luicy is an Indonesian pop
-            band known for their emotional lyrics, sentimental melodies, and
-            relatable songs about love and heartbreak.
-          </p>
-        </article>
-        <br />
+          <li>
+            <figure class="artist-card">
+              <span class="day-badge">Day 2</span>
+              <img src="assets/img/juicy.jpeg" alt="Juicy Luicy" width="200" />
+              <figcaption>
+                <h4>Juicy Luicy</h4>
+                <p><strong>Genre:</strong> Pop</p>
+                <p><strong>Performance:</strong> Day 2 — June 16, 2026</p>
+              </figcaption>
+            </figure>
+          </li>
 
-        <article>
-          <h3>Nadin Amizah</h3>
-          <figure>
-            <img src="assets/img/nadin.jpg" alt="Nadin Amizah" width="500" />
-            <figcaption>
-              Nadin Amizah brings poetic lyrics and an intimate atmosphere to
-              the WPU StreamFest stage.
-            </figcaption>
-          </figure>
-          <p><strong>Genre:</strong> Pop</p>
-          <p><strong>Performance:</strong> Day 3 — June 17, 2026</p>
-          <p>
-            <strong>Deskripsi:</strong><br />Nadin Amizah is an Indonesian
-            singer-songwriter known for her poetic lyrics, emotional
-            storytelling, and distinctive vocal style that creates an intimate
-            connection with her listeners.
-          </p>
-        </article>
-        <br />
+          <li>
+            <figure class="artist-card">
+              <span class="day-badge">Day 3</span>
+              <img src="assets/img/nadin.jpg" alt="Nadin Amizah" width="200" />
+              <figcaption>
+                <h4>Nadin Amizah</h4>
+                <p><strong>Genre:</strong> Pop</p>
+                <p><strong>Performance:</strong> Day 3 — June 17, 2026</p>
+              </figcaption>
+            </figure>
+          </li>
 
-        <article>
-          <h3>.Feast</h3>
-          <figure>
-            <img src="assets/img/feast.jpeg" alt=".Feast" width="500" />
-            <figcaption>
-              .Feast brings powerful rock energy to the WPU StreamFest stage.
-            </figcaption>
-          </figure>
-          <p><strong>Genre:</strong> Rock</p>
-          <p><strong>Performance:</strong> Day 3 — June 17, 2026</p>
-          <p>
-            <strong>Deskripsi:</strong><br />.Feast is an Indonesian rock band
-            known for their energetic performances, powerful sound, and
-            thought-provoking lyrics that often reflect social issues and
-            everyday life.
-          </p>
-        </article>
+          <li>
+            <figure class="artist-card">
+              <span class="day-badge">Day 3</span>
+              <img src="assets/img/feast.jpeg" alt=".Feast" width="200" />
+              <figcaption>
+                <h4>.Feast</h4>
+                <p><strong>Genre:</strong> Rock</p>
+                <p><strong>Performance:</strong> Day 3 — June 17, 2026</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
       </section>
-      <br />
-      <hr />
-      <br />
 
-      <section>
-        <h2 id="schedule">Festival Schedule</h2>
+      <section id="schedule">
+        <h3>Festival Schedule</h3>
         <table border="1" cellpadding="10" cellspacing="0">
           <thead>
             <tr>
@@ -306,141 +265,151 @@
           </tbody>
         </table>
       </section>
-      <br />
-      <hr />
-      <br />
 
-      <section>
-        <h2 id="ticket">Tickets</h2>
+      <section id="tickets">
+        <h3>Tickets</h3>
         <form>
-          <table>
-            <tr>
-              <td><label for="nama">Nama Lengkap</label></td>
-              <td>
-                <input
-                  type="text"
-                  id="nama"
-                  name="nama"
-                  placeholder="Masukkan Nama Lengkap"
-                  autocomplete="off"
-                  required
-                />
-              </td>
-            </tr>
-            <tr>
-              <td><label for="email">Email</label></td>
-              <td>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Masukkan Email"
-                  required
-                />
-              </td>
-            </tr>
-            <tr>
-              <td><label for="nomor">Nomor Telepon</label></td>
-              <td>
-                <input
-                  type="tel"
-                  id="nomor"
-                  name="nomor"
-                  placeholder="Masukkan Nomor Telepon"
-                  required
-                />
-              </td>
-            </tr>
-            <tr>
-              <td><label for="jumlah">Jumlah Tiket</label></td>
-              <td>
-                <input
-                  type="number"
-                  id="jumlah"
-                  name="jumlah"
-                  placeholder="1-10"
-                  min="1"
-                  max="10"
-                  required
-                />
-              </td>
-            </tr>
-          </table>
+          <div>
+            <label for="nama">Nama Lengkap</label>
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              placeholder="Masukkan Nama Lengkap"
+              autocomplete="off"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Masukkan Email"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="nomor">Nomor Telepon</label>
+            <input
+              type="tel"
+              id="nomor"
+              name="nomor"
+              placeholder="Masukkan Nomor Telepon"
+              required
+            />
+          </div>
 
           <!-- Bagian Tipe Ticket -->
-          <h3>Tipe Ticket:</h3>
-          <input
-            type="radio"
-            id="ticket1"
-            name="ticket"
-            value="reguler"
-            required
-          />
-          <label for="ticket1">Reguler/Rp500.000</label>
-          <input type="radio" id="ticket2" name="ticket" value="vip" required />
-          <label for="ticket2">VIP/Rp1.500.000</label>
-          <input
-            type="radio"
-            id="ticket3"
-            name="ticket"
-            value="vvip"
-            required
-          />
-          <label for="ticket3">VVIP/Rp3.000.000</label>
+          <div>
+            <label for="ticket-category">Ticket Category (3 Day Pass)</label>
+            <select name="ticket-category" id="ticket-category">
+              <option value="" disabled selected>
+                Select Ticket Category...
+              </option>
+              <option value="reguler">Reguler (Rp 500.000)</option>
+              <option value="vip">VIP (Rp 1.500.000)</option>
+              <option value="vvip">VVIP (Rp 3.000.000)</option>
+            </select>
+          </div>
 
-          <!-- BagianDay Pass -->
-          <h3>Day Pass:</h3>
-          <input type="checkbox" id="day1" name="day1" />
-          <label for="day1">Day 1</label>
-          <input type="checkbox" id="day2" name="day2" />
-          <label for="day2">Day 2</label>
-          <input type="checkbox" id="day3" name="day3" />
-          <label for="day3">Day 3</label>
-
-          <br />
-          <br />
+          <div>
+            <label for="jumlah">Jumlah Tiket (1-10)</label>
+            <input
+              type="number"
+              id="jumlah"
+              name="jumlah"
+              placeholder="1-10"
+              min="1"
+              max="10"
+              required
+            />
+          </div>
           <button type="submit">Kirim</button>
         </form>
       </section>
-      <br />
-      <hr />
-      <br />
 
-      <section>
-        <h2 id="gallery">Festival Gallery</h2>
-        <p>
-          Lihat kembali berbagai momen tak terlupakan dari WPU StreamFest 2025,
-          mulai dari penampilan musik yang penuh energi hingga keseruan festival
-          yang dinikmati bersama ribuan pecinta musik.
-        </p>
+      <section id="gallery">
+        <h3>Festival Gallery</h3>
+        <ul>
+        <li>
         <figure>
           <img src="assets/img/gallery1.jpg" alt="Panggung Utama" width="500" />
-          <figcaption>Panggung utama menyala dengan gemerlap cahaya di WPU StreamFest 2025.</figcaption>
+          <figcaption>
+            Panggung utama menyala dengan gemerlap cahaya di WPU StreamFest
+            2025.
+          </figcaption>
         </figure>
+        </li>
+
+        <li>
         <figure>
-          <img src="assets/img/gallery2.jpg" alt="Pengunjung Festival" width="500" />
-          <figcaption>Ribuan pecinta musik menikmati suasana festival bersama di WPU StreamFest 2025.</figcaption>
+          <img
+            src="assets/img/gallery2.jpg"
+            alt="Pengunjung Festival"
+            width="500"
+          />
+          <figcaption>
+            Ribuan pecinta musik menikmati suasana festival bersama di WPU
+            StreamFest 2025.
+          </figcaption>
         </figure>
+        </li>
+
+        <li>
         <figure>
-          <img src="assets/img/gallery3.jpg" alt="Penampilan Musik" width="500" />
-          <figcaption>Penampilan musik yang penuh energi menjadi salah satu momen tak terlupakan di WPU StreamFest 2025.</figcaption>
+          <img
+            src="assets/img/gallery3.jpg"
+            alt="Penampilan Musik"
+            width="500"
+          />
+          <figcaption>
+            Penampilan musik yang penuh energi menjadi salah satu momen tak
+            terlupakan di WPU StreamFest 2025.
+          </figcaption>
         </figure>
+        </li>
+
+        <li>
         <figure>
-          <img src="assets/img/gallery4.jpg" alt="Makanan dan Minuman" width="500" />
-          <figcaption>Para pengunjung menikmati berbagai makanan dan minuman di area festival.</figcaption>
+          <img
+            src="assets/img/gallery4.jpg"
+            alt="Makanan dan Minuman"
+            width="500"
+          />
+          <figcaption>
+            Para pengunjung menikmati berbagai makanan dan minuman di area
+            festival.
+          </figcaption>
         </figure>
+        </li>
+
+        <li>
         <figure>
           <img src="assets/img/gallery5.jpg" alt="Festival Vibes" width="500" />
-          <figcaption>Pengunjung menikmati suasana festival dengan cahaya neon yang penuh warna.</figcaption>
+          <figcaption>
+            Pengunjung menikmati suasana festival dengan cahaya neon yang penuh
+            warna.
+          </figcaption>
         </figure>
+        </li>
+
+        <li>
         <figure>
           <img src="assets/img/gallery6.jpg" alt="Closing Night" width="500" />
-          <figcaption>Malam penutupan dipenuhi cahaya, musik, dan momen berkesan yang sulit dilupakan.</figcaption>
+          <figcaption>
+            Malam penutupan dipenuhi cahaya, musik, dan momen berkesan yang
+            sulit dilupakan.
+          </figcaption>
         </figure>
+        </li>
+        </ul>
       </section>
     </main>
 
-    <hr />
     <footer>
       <p>&copy; 2026 WPU StreamFest. All rights reserved.</p>
       <p>
@@ -450,7 +419,14 @@
         <a href="#" target="_blank">Twitter / X</a>
         <a href="#" target="_blank">Youtube</a>
       </p>
-      <p>Contact: <a href="mailto:hello@wpustreamfest.com" target="_blank">hello@wpustreamfest.com</a></p>
+      <p>
+        Contact:
+        <a href="mailto:hello@wpustreamfest.com" target="_blank"
+          >hello@wpustreamfest.com</a
+        >
+      </p>
     </footer>
+
+    <a href="#tickets" class="tickets-btn">Buy Tickets</a>
   </body>
 </html>
